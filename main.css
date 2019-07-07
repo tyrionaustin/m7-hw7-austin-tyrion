@@ -31,7 +31,10 @@ main {
   width: 100%;
   max-width: 450px;
   float: right;
+}
 
+.hide {
+  display: none;
 }
 
 footer {
