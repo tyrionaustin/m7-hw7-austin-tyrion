@@ -1,24 +1,31 @@
 * {
+  border: 0;
   margin: 0;
   padding: 0;
-  border: 0;
+
 }
 
 html {
-  background-image: url('icecream.png');
-  background-size: cover;
+  background-image: url('icecream.png')
 }
 
 header {
   background-color: #aaf0d1;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 main {
+  background-color: #ffffff;
   text-align: center;
   margin: 0 auto;
-  width: 1200px;
+  width: 1050px;
   max-width: 100%;
-  background-color: white;
+  padding-top: 20px;
+}
+
+main p {
+  font-size: 18px;
 }
 
 .about {
@@ -31,6 +38,7 @@ main {
   width: 100%;
   max-width: 450px;
   float: right;
+  text-align: center;
 }
 
 .hide {
@@ -40,5 +48,9 @@ main {
 footer {
   background-color: #aaf0d1;
   clear: both;
-
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
 }

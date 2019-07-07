@@ -1,3 +1,5 @@
+//Change image on hover//
+
 const flavor = document.getElementById('hidden');
 let iceCream = document.getElementById('matcha');
   iceCream.addEventListener('mouseover', () => {
@@ -9,7 +11,7 @@ let iceCream = document.getElementById('matcha');
 
 
 
-
+// Show and Hide image on hover //
 const showMessage = () => {
   hidden.classList.remove('hide')
 }
