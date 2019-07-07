@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  background-image: url('icecream.png');
+  background-size: cover;
+}
+
+header {
+  background-color: #aaf0d1;
+}
+
+main {
+  text-align: center;
+  margin: 0 auto;
+  width: 1200px;
+  max-width: 100%;
+  background-color: white;
+}
+
+.about {
+  width: 100%;
+  max-width: 500px;
+  float: left;
+}
+
+.image {
+  width: 100%;
+  max-width: 450px;
+  float: right;
+
+}
+
+footer {
+  background-color: #aaf0d1;
+
+}
